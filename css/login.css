@@ -8,21 +8,23 @@ body {
   left: 35%;
 }
 
-.google_login {
+.botton1 {
   position: absolute;
+  width: 16%;
   left: 38%;
   top: 57%;
   z-index: 2;
 }
-
-.fb_login {
+.button2 {
   position: absolute;
+  width: 16%;
   left: 38%;
   top: 65%;
 }
 
-.guest_login {
+.button3 {
   position: absolute;
+  width: 16%;
   left: 38%;
   top: 74%;
 }
@@ -31,15 +33,15 @@ body {
   .background_image {
     left: 0%;
   }
-  .google_login {
+  .botton1 {
     width: 60%;
     left: 7%;
   }
-  .fb_login {
+  .button2 {
     width: 60%;
     left: 7%;
   }
-  .guest_login {
+  .button3 {
     width: 60%;
     left: 7%;
   }
