@@ -1,5 +1,4 @@
 var button3 = document.querySelector(".button3");
-var button2 = document.querySelector(".button2")
 // var img_genius_2 = document.querySelector(".genius_2");
 // var img_genius_3 = document.querySelector(".genius_3");
 // var img_genius_4 = document.querySelector(".genius_4");
@@ -25,12 +24,7 @@ function click1(){
     button1.setAttribute('style','visibility:hidden');
     button2.setAttribute('style','visibility:hidden');
     background2.setAttribute('style','none');
-    button.setAttribute('style','visibility:hidden');
-    // genius_1.setAttribute('src','../picture/Self1.png');
-    // genius_1.setAttribute('width','15%');
-    // genius_1.setAttribute('height','13%');
-   
-   
+    button.setAttribute('style','visibility:hidden');  
 }
 
 // function mouse_in_2(){
@@ -298,7 +292,7 @@ function click1(){
 //     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 // }
 
-button2.addEventListener('click',click1)
+button3.addEventListener('click',click1)
 // img_genius_1.addEventListener('mouseenter',mouse_in_1);
 // img_genius_2.addEventListener('mouseenter',mouse_in_2);
 // img_genius_3.addEventListener('mouseenter',mouse_in_3);
