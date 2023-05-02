@@ -14,7 +14,7 @@
 var button1_listen = document.querySelector(".botton1");
 
 function click1(){
-    button1_listen.style.background = "green";  
+    button1_listen.style.background = "dark";  
 }
 
 
