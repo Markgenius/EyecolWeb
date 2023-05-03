@@ -173,6 +173,24 @@ body {
   z-index: 2;
 }
 
+.buttonG1_4 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
+.buttonG1_5 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
+.buttonG1_6 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
 @media screen and (max-width: 1200px) {
   .background_image1 {
     left: 0%;

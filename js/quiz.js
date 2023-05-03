@@ -35,6 +35,9 @@ var background_5 = document.querySelector(".background_image5");
 var buttonGroup1 = document.querySelector(".buttonG1_1");
 var buttonGroup2 = document.querySelector(".buttonG1_2");
 var buttonGroup3 = document.querySelector(".buttonG1_3");
+var buttonGroup4 = document.querySelector(".buttonG1_4");
+var buttonGroup5 = document.querySelector(".buttonG1_5");
+var buttonGroup6 = document.querySelector(".buttonG1_6");
 
 
 function click1(){
@@ -84,6 +87,9 @@ function click4(){
     buttonGroup1.setAttribute('style','none');
     buttonGroup2.setAttribute('style','none');
     buttonGroup3.setAttribute('style','none');
+    buttonGroup4.setAttribute('style','none');
+    buttonGroup5.setAttribute('style','none');
+    buttonGroup6.setAttribute('style','none');
 }
 
 
