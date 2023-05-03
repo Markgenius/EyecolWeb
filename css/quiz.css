@@ -32,6 +32,18 @@ body {
   left: 78px;
 }
 
+.background_image6 {
+  position: absolute;
+  height: 100%;
+  left: 78px;
+}
+
+.background_image7 {
+  position: absolute;
+  height: 100%;
+  left: 78px;
+}
+
 .botton1 {
   position: absolute;
   width: 234px;
@@ -155,6 +167,15 @@ body {
   cursor: pointer;
 }
 
+.botton5 {
+  position: absolute;
+  width: 234px;
+  left: 78px;
+  top: 85%;
+  border-radius: 12px;
+  z-index: 2;
+}
+
 .buttonG1_1 {
   position: absolute;
   left: 50px;
@@ -239,6 +260,73 @@ body {
   z-index: 2;
 }
 
+.botton6 {
+  position: absolute;
+  width: 234px;
+  left: 78px;
+  top: 85%;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.buttonG2_1 {
+  position: absolute;
+  left: 50px;
+  top: 460px;
+  z-index: 2;
+}
+
+.buttonG2_2 {
+  position: absolute;
+  left: 200px;
+  top: 460px;
+  z-index: 2;
+}
+
+.botton7 {
+  position: absolute;
+  width: 234px;
+  left: 78px;
+  top: 85%;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.buttonG3_1, .buttonG3_1_ {
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  z-index: 2;
+}
+
+.buttonG3_2, .buttonG3_2_ {
+  position: absolute;
+  left: 50px;
+  top: 405px;
+  z-index: 2;
+}
+
+.buttonG3_3, .buttonG3_3_ {
+  position: absolute;
+  left: 50px;
+  top: 460px;
+  z-index: 2;
+}
+
+.buttonG3_4, .buttonG3_4_ {
+  position: absolute;
+  left: 50px;
+  top: 515px;
+  z-index: 2;
+}
+
+.buttonG3_5, .buttonG3_5_ {
+  position: absolute;
+  left: 50px;
+  top: 570px;
+  z-index: 2;
+}
+
 @media screen and (max-width: 1200px) {
   .background_image1 {
     left: 0%;
@@ -253,6 +341,12 @@ body {
     left: 0%;
   }
   .background_image5 {
+    left: 0%;
+  }
+  .background_image6 {
+    left: 0%;
+  }
+  .background_image7 {
     left: 0%;
   }
   .btn-group-vertical {
