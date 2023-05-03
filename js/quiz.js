@@ -26,7 +26,7 @@ output1.innerHTML = slider_1.value;
 
 var button_4 = document.querySelector(".botton4");
 var background_4 = document.querySelector(".background_image4");
-var slider_2 = document.querySelector(".slider1");
+var slider_2 = document.querySelector(".slider2");
 var output2 = document.getElementById("sliderValue2");
 output2.innerHTML = slider_2.value;
 
@@ -191,10 +191,10 @@ function click5(){
     buttonGroup2_2.setAttribute('style','none');
 }
 function clickBG2_1(){
-
+    click6();
 }
 function clickBG2_2(){
-
+    click6();
 }
 
 function click6(){
