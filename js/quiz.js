@@ -21,6 +21,8 @@ var age_input_1 = document.querySelector(".age_input1");
 var button_3 = document.querySelector(".botton3");
 var background_3 = document.querySelector(".background_image3");
 var slider_1 = document.querySelector(".slider1");
+var output1 = document.getElementById("sliderValue");
+output1.innerHTML = slider_1.value;
 
 function click1(){
     button_1.style.background = "dark";  
@@ -41,7 +43,9 @@ function click2(){
     button_3.setAttribute('style','none');
     background_3.setAttribute('style','none');
     slider_1.setAttribute('style','none');
+    output1.setAttribute('style','none');
 }
+
 
 
 
@@ -78,4 +82,6 @@ function click2(){
 button_1.addEventListener('click',click1);
 button_2.addEventListener('click',click2);
 
-
+slider_1.oninput = function() {
+    output1.innerHTML = this.value;
+}
