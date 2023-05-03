@@ -157,37 +157,85 @@ body {
 
 .buttonG1_1 {
   position: absolute;
-  top: 400px;
+  left: 50px;
+  top: 350px;
   z-index: 2;
 }
 
 .buttonG1_2 {
   position: absolute;
-  top: 400px;
+  left: 50px;
+  top: 460px;
   z-index: 2;
 }
 
 .buttonG1_3 {
   position: absolute;
-  top: 400px;
+  left: 50px;
+  top: 570px;
   z-index: 2;
 }
 
 .buttonG1_4 {
   position: absolute;
-  top: 400px;
+  left: 200px;
+  top: 350px;
   z-index: 2;
 }
 
 .buttonG1_5 {
   position: absolute;
-  top: 400px;
+  left: 200px;
+  top: 460px;
   z-index: 2;
 }
 
 .buttonG1_6 {
   position: absolute;
-  top: 400px;
+  left: 200px;
+  top: 570px;
+  z-index: 2;
+}
+
+.buttonG1_1_ {
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  z-index: 2;
+}
+
+.buttonG1_2_ {
+  position: absolute;
+  left: 50px;
+  top: 460px;
+  z-index: 2;
+}
+
+.buttonG1_3_ {
+  position: absolute;
+  left: 50px;
+  top: 570px;
+  z-index: 2;
+}
+
+.buttonG1_4_ {
+  position: absolute;
+  left: 200px;
+  top: 350px;
+  z-index: 2;
+}
+
+.buttonG1_5_ {
+  position: absolute;
+  left: 200px;
+  top: 460px;
+  z-index: 2;
+}
+
+.buttonG1_6_ {
+  position: absolute;
+  left: 200px;
+  top: 570px;
   z-index: 2;
 }
 

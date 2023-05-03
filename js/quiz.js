@@ -32,12 +32,19 @@ output2.innerHTML = slider_2.value;
 
 var button_5 = document.querySelector(".botton4");
 var background_5 = document.querySelector(".background_image5");
-var buttonGroup1 = document.querySelector(".buttonG1_1");
-var buttonGroup2 = document.querySelector(".buttonG1_2");
-var buttonGroup3 = document.querySelector(".buttonG1_3");
-var buttonGroup4 = document.querySelector(".buttonG1_4");
-var buttonGroup5 = document.querySelector(".buttonG1_5");
-var buttonGroup6 = document.querySelector(".buttonG1_6");
+var buttonGroup1_1 = document.querySelector(".buttonG1_1");
+var buttonGroup1_2 = document.querySelector(".buttonG1_2");
+var buttonGroup1_3 = document.querySelector(".buttonG1_3");
+var buttonGroup1_4 = document.querySelector(".buttonG1_4");
+var buttonGroup1_5 = document.querySelector(".buttonG1_5");
+var buttonGroup1_6 = document.querySelector(".buttonG1_6");
+
+var buttonGroup1_1_ = document.querySelector(".buttonG1_1_");
+var buttonGroup1_2_ = document.querySelector(".buttonG1_2_");
+var buttonGroup1_3_ = document.querySelector(".buttonG1_3_");
+var buttonGroup1_4_ = document.querySelector(".buttonG1_4_");
+var buttonGroup1_5_ = document.querySelector(".buttonG1_5_");
+var buttonGroup1_6_ = document.querySelector(".buttonG1_6_");
 
 
 function click1(){
@@ -84,14 +91,63 @@ function click4(){
     output2.setAttribute('style','visibility:hidden');
     button_5.setAttribute('style','none');
     background_5.setAttribute('style','none');
-    buttonGroup1.setAttribute('style','none');
-    buttonGroup2.setAttribute('style','none');
-    buttonGroup3.setAttribute('style','none');
-    buttonGroup4.setAttribute('style','none');
-    buttonGroup5.setAttribute('style','none');
-    buttonGroup6.setAttribute('style','none');
+    buttonGroup1_1.setAttribute('style','none');
+    buttonGroup1_2.setAttribute('style','none');
+    buttonGroup1_3.setAttribute('style','none');
+    buttonGroup1_4.setAttribute('style','none');
+    buttonGroup1_5.setAttribute('style','none');
+    buttonGroup1_6.setAttribute('style','none');
 }
 
+function clickBG1_1(){
+    buttonGroup1_1.setAttribute('style','visibility:hidden');
+    buttonGroup1_1_.setAttribute('style','none');
+}
+function clickBG1_2(){
+    buttonGroup1_2.setAttribute('style','visibility:hidden');
+    buttonGroup1_2_.setAttribute('style','none');
+}
+function clickBG1_3(){
+    buttonGroup1_3.setAttribute('style','visibility:hidden');
+    buttonGroup1_3_.setAttribute('style','none');
+}
+function clickBG1_4(){
+    buttonGroup1_4.setAttribute('style','visibility:hidden');
+    buttonGroup1_4_.setAttribute('style','none');
+}
+function clickBG1_5(){
+    buttonGroup1_5.setAttribute('style','visibility:hidden');
+    buttonGroup1_5_.setAttribute('style','none');
+}
+function clickBG1_6(){
+    buttonGroup1_6.setAttribute('style','visibility:hidden');
+    buttonGroup1_6_.setAttribute('style','none');
+}
+///////////////
+function clickBG1_1_(){
+    buttonGroup1_1_.setAttribute('style','visibility:hidden');
+    buttonGroup1_1.setAttribute('style','none');
+}
+function clickBG1_2_(){
+    buttonGroup1_2_.setAttribute('style','visibility:hidden');
+    buttonGroup1_2.setAttribute('style','none');
+}
+function clickBG1_3_(){
+    buttonGroup1_3_.setAttribute('style','visibility:hidden');
+    buttonGroup1_3.setAttribute('style','none');
+}
+function clickBG1_4_(){
+    buttonGroup1_4_.setAttribute('style','visibility:hidden');
+    buttonGroup1_4.setAttribute('style','none');
+}
+function clickBG1_5_(){
+    buttonGroup1_5_.setAttribute('style','visibility:hidden');
+    buttonGroup1_5.setAttribute('style','none');
+}
+function clickBG1_6_(){
+    buttonGroup1_6_.setAttribute('style','visibility:hidden');
+    buttonGroup1_6.setAttribute('style','none');
+}
 
 
 
@@ -129,6 +185,18 @@ button_1.addEventListener('click',click1);
 button_2.addEventListener('click',click2);
 button_3.addEventListener('click',click3);
 button_4.addEventListener('click',click4);
+buttonGroup1_1.addEventListener('click',clickBG1_1);
+buttonGroup1_2.addEventListener('click',clickBG1_2);
+buttonGroup1_3.addEventListener('click',clickBG1_3);
+buttonGroup1_4.addEventListener('click',clickBG1_4);
+buttonGroup1_5.addEventListener('click',clickBG1_5);
+buttonGroup1_6.addEventListener('click',clickBG1_6);
+buttonGroup1_1_.addEventListener('click',clickBG1_1_);
+buttonGroup1_2_.addEventListener('click',clickBG1_2_);
+buttonGroup1_3_.addEventListener('click',clickBG1_3_);
+buttonGroup1_4_.addEventListener('click',clickBG1_4_);
+buttonGroup1_5_.addEventListener('click',clickBG1_5_);
+buttonGroup1_6_.addEventListener('click',clickBG1_6_);
 
 slider_1.oninput = function() {
     output1.innerHTML = this.value;
