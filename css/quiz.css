@@ -35,10 +35,10 @@ body {
 .age_input1 {
   position: absolute;
   width: 100px;
-  left: 78px;
-  top: 50%;
-  border-radius: 12px;
-  z-index: 3;
+  height: 50px;
+  left: 100px;
+  top: 390px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1200px) {
