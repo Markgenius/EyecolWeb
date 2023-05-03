@@ -21,8 +21,14 @@ var age_input_1 = document.querySelector(".age_input1");
 var button_3 = document.querySelector(".botton3");
 var background_3 = document.querySelector(".background_image3");
 var slider_1 = document.querySelector(".slider1");
-var output1 = document.getElementById("sliderValue");
+var output1 = document.getElementById("sliderValue1");
 output1.innerHTML = slider_1.value;
+
+var button_4 = document.querySelector(".botton4");
+var background_4 = document.querySelector(".background_image4");
+var slider_2 = document.querySelector(".slider1");
+var output2 = document.getElementById("sliderValue2");
+output2.innerHTML = slider_2.value;
 
 function click1(){
     button_1.style.background = "dark";  
@@ -44,6 +50,19 @@ function click2(){
     background_3.setAttribute('style','none');
     slider_1.setAttribute('style','none');
     output1.setAttribute('style','none');
+}
+
+function click3(){
+    button_4.style.background = "dark";  
+
+    button_3.setAttribute('style','visibility:hidden');
+    background_3.setAttribute('style','visibility:hidden');
+    slider_1.setAttribute('style','visibility:hidden');
+    output1.setAttribute('style','visibility:hidden');
+    button_4.setAttribute('style','none');
+    background_4.setAttribute('style','none');
+    slider_2.setAttribute('style','none');
+    output2.setAttribute('style','none');
 }
 
 
@@ -81,7 +100,11 @@ function click2(){
 
 button_1.addEventListener('click',click1);
 button_2.addEventListener('click',click2);
+button_3.addEventListener('click',click3);
 
 slider_1.oninput = function() {
     output1.innerHTML = this.value;
+}
+slider_2.oninput = function() {
+    output2.innerHTML = this.value;
 }
