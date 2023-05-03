@@ -2,7 +2,13 @@ body {
   margin: 0px;
 }
 
-.background_image {
+.background_image1 {
+  position: absolute;
+  height: 100%;
+  left: 35%;
+}
+
+.background_image2 {
   position: absolute;
   height: 100%;
   left: 35%;
@@ -10,15 +16,36 @@ body {
 
 .botton1 {
   position: absolute;
-  width: 60%;
-  left: 20%;
-  top: 90%;
+  width: 234px;
+  left: 78px;
+  top: 85%;
   border-radius: 12px;
   z-index: 2;
 }
 
+.botton2 {
+  position: absolute;
+  width: 234px;
+  left: 78px;
+  top: 85%;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.age_input1 {
+  position: absolute;
+  width: 100px;
+  left: 78px;
+  top: 50%;
+  border-radius: 12px;
+  z-index: 3;
+}
+
 @media screen and (max-width: 1200px) {
-  .background_image {
+  .background_image1 {
+    left: 0%;
+  }
+  .background_image2 {
     left: 0%;
   }
 }

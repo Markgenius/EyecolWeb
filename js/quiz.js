@@ -11,10 +11,20 @@
 // var img_connect = document.querySelector(".connect");
 // var img_findNow = document.querySelector(".find_now");
 
-var button1_listen = document.querySelector(".botton1");
+var button_1 = document.querySelector(".botton1");
+var background_1 = document.querySelector(".background_image1");
+var button_2 = document.querySelector(".botton2");
+var background_2 = document.querySelector(".background_image2");
+var age_input = document.querySelector(".age_input1");
 
 function click1(){
-    button1_listen.style.background = "dark";  
+    button_1.style.background = "dark";  
+
+    button_1.setAttribute('style','visibility:hidden');
+    background_1.setAttribute('style','visibility:hidden');
+    button_2.setAttribute('style','none');
+    background_2.setAttribute('style','none');
+    age_input.setAttribute('style','none');
 }
 
 
@@ -330,6 +340,6 @@ function click1(){
 // img_connect.addEventListener('mouseleave', mouse_out_connect);
 // img_about_us.addEventListener('mouseleave',mouse_out_about_us);
 
-button1_listen.addEventListener('click',click1);
+button_1.addEventListener('click',click1);
 
 
