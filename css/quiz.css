@@ -26,6 +26,12 @@ body {
   left: 78px;
 }
 
+.background_image5 {
+  position: absolute;
+  height: 100%;
+  left: 78px;
+}
+
 .botton1 {
   position: absolute;
   width: 234px;
@@ -149,6 +155,24 @@ body {
   cursor: pointer;
 }
 
+.buttonG1_1 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
+.buttonG1_2 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
+.buttonG1_3 {
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
 @media screen and (max-width: 1200px) {
   .background_image1 {
     left: 0%;
@@ -159,8 +183,14 @@ body {
   .background_image3 {
     left: 0%;
   }
-  .background_image3 {
+  .background_image4 {
     left: 0%;
+  }
+  .background_image5 {
+    left: 0%;
+  }
+  .btn-group-vertical {
+    width: 100px;
   }
 }
 

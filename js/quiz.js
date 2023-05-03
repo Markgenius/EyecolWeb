@@ -30,6 +30,13 @@ var slider_2 = document.querySelector(".slider1");
 var output2 = document.getElementById("sliderValue2");
 output2.innerHTML = slider_2.value;
 
+var button_5 = document.querySelector(".botton4");
+var background_5 = document.querySelector(".background_image5");
+var buttonGroup1 = document.querySelector(".buttonG1_1");
+var buttonGroup2 = document.querySelector(".buttonG1_2");
+var buttonGroup3 = document.querySelector(".buttonG1_3");
+
+
 function click1(){
     button_1.style.background = "dark";  
 
@@ -53,7 +60,7 @@ function click2(){
 }
 
 function click3(){
-    button_4.style.background = "dark";  
+    button_3.style.background = "dark";  
 
     button_3.setAttribute('style','visibility:hidden');
     background_3.setAttribute('style','visibility:hidden');
@@ -63,6 +70,20 @@ function click3(){
     background_4.setAttribute('style','none');
     slider_2.setAttribute('style','none');
     output2.setAttribute('style','none');
+}
+
+function click4(){
+    button_4.style.background = "dark";  
+
+    button_4.setAttribute('style','visibility:hidden');
+    background_4.setAttribute('style','visibility:hidden');
+    slider_2.setAttribute('style','visibility:hidden');
+    output2.setAttribute('style','visibility:hidden');
+    button_5.setAttribute('style','none');
+    background_5.setAttribute('style','none');
+    buttonGroup1.setAttribute('style','none');
+    buttonGroup2.setAttribute('style','none');
+    buttonGroup3.setAttribute('style','none');
 }
 
 
@@ -101,6 +122,7 @@ function click3(){
 button_1.addEventListener('click',click1);
 button_2.addEventListener('click',click2);
 button_3.addEventListener('click',click3);
+button_4.addEventListener('click',click4);
 
 slider_1.oninput = function() {
     output1.innerHTML = this.value;
