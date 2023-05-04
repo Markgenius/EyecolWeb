@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  left: 35%;
+}
+
+.username {
+  position: absolute;
+  top: 28%;
+  left: 46%;
+}
+
+@media screen and (max-width: 1200px) {
+  .background {
+    left: 0%;
+  }
+}
+
+/*# sourceMappingURL=prescription.css.map */
