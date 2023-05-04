@@ -283,6 +283,20 @@ body {
   z-index: 2;
 }
 
+.buttonG2_1_ {
+  position: absolute;
+  left: 50px;
+  top: 460px;
+  z-index: 2;
+}
+
+.buttonG2_2_ {
+  position: absolute;
+  left: 200px;
+  top: 460px;
+  z-index: 2;
+}
+
 .botton7 {
   position: absolute;
   width: 234px;

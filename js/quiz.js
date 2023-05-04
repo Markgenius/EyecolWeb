@@ -49,6 +49,8 @@ var button_6 = document.querySelector(".botton6");
 var background_6 = document.querySelector(".background_image6");
 var buttonGroup2_1 = document.querySelector(".buttonG2_1");
 var buttonGroup2_2 = document.querySelector(".buttonG2_2");
+var buttonGroup2_1_ = document.querySelector(".buttonG2_1_");
+var buttonGroup2_2_ = document.querySelector(".buttonG2_2_");
 
 var button_7 = document.querySelector(".botton7");
 var background_7 = document.querySelector(".background_image7");
@@ -191,10 +193,24 @@ function click5(){
     buttonGroup2_2.setAttribute('style','none');
 }
 function clickBG2_1(){
-    click6();
+    buttonGroup2_1.setAttribute('style','visibility:hidden');
+    buttonGroup2_1_.setAttribute('style','none');
+    buttonGroup2_2.setAttribute('style','none');
+    buttonGroup2_2_.setAttribute('style','visibility:hidden');
 }
 function clickBG2_2(){
-    click6();
+    buttonGroup2_2.setAttribute('style','visibility:hidden');
+    buttonGroup2_2_.setAttribute('style','none');
+    buttonGroup2_1.setAttribute('style','none');
+    buttonGroup2_1_.setAttribute('style','visibility:hidden');
+}
+function clickBG2_1_(){
+    buttonGroup2_1.setAttribute('style','none');
+    buttonGroup2_1_.setAttribute('style','visibility:hidden');
+}
+function clickBG2_2_(){
+    buttonGroup2_2.setAttribute('style','none');
+    buttonGroup2_2_.setAttribute('style','visibility:hidden');
 }
 
 function click6(){
@@ -306,6 +322,8 @@ buttonGroup1_6_.addEventListener('click',clickBG1_6_);
 button_5.addEventListener('click',click5);
 buttonGroup2_1.addEventListener('click',clickBG2_1);
 buttonGroup2_2.addEventListener('click',clickBG2_2);
+buttonGroup2_1_.addEventListener('click',clickBG2_1_);
+buttonGroup2_2_.addEventListener('click',clickBG2_2_);
 button_6.addEventListener('click',click6);
 buttonGroup3_1.addEventListener('click',clickBG3_1);
 buttonGroup3_2.addEventListener('click',clickBG3_2);
