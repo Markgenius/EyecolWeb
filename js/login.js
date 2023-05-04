@@ -71,6 +71,7 @@ function click4(){
     button4.setAttribute('style','visibility:hidden'); 
     background3.setAttribute('style','none');
     button5.setAttribute('style','none');
+    
 }
 
 
