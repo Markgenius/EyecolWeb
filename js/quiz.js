@@ -287,10 +287,10 @@ function clickBG3_5_(){
 // img_connect.addEventListener('mouseleave', mouse_out_connect);
 // img_about_us.addEventListener('mouseleave',mouse_out_about_us);
 
-button_1.addEventListener('mousedown',click1);
-button_2.addEventListener('mousedown',click2);
-button_3.addEventListener('mousedown',click3);
-button_4.addEventListener('mousedown',click4);
+button_1.addEventListener('click',click1);
+button_2.addEventListener('click',click2);
+button_3.addEventListener('click',click3);
+button_4.addEventListener('click',click4);
 buttonGroup1_1.addEventListener('click',clickBG1_1);
 buttonGroup1_2.addEventListener('click',clickBG1_2);
 buttonGroup1_3.addEventListener('click',clickBG1_3);
