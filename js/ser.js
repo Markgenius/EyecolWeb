@@ -34,3 +34,6 @@ app.post('/login', (req, res) => {
   // `bady-parser` 將解析好的資料存放在 `req.body`
   res.send(`Hello, ${req.body.fname}`)
 })
+app.get('/', function(req, res, next) {
+  res.send("Hello world");
+});
