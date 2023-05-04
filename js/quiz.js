@@ -220,6 +220,8 @@ function click6(){
     background_6.setAttribute('style','visibility:hidden');
     buttonGroup2_1.setAttribute('style','visibility:hidden');
     buttonGroup2_2.setAttribute('style','visibility:hidden');
+    buttonGroup2_1_.setAttribute('style','visibility:hidden');
+    buttonGroup2_2_.setAttribute('style','visibility:hidden');
 
 
     button_7.setAttribute('style','none');
