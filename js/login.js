@@ -73,6 +73,14 @@ function click4(){
     button5.setAttribute('style','none');
     
 }
+// function senddata(){
+//     // const url = "https://markgenius.github.io/EyecolWeb/html/prescription.html";
+//     // const otherpage = window.open(url);
+//     var name = document.querySelector(".charactor").value;
+//     otherpage.postMessage(name,"https://markgenius.github.io/EyecolWeb/html/");
+
+
+// }
 
 
 button3.addEventListener('click',click1);
@@ -80,3 +88,4 @@ owl1.addEventListener('click',clickowl1);
 owl2.addEventListener('click',clickowl2);
 owl3.addEventListener('click',clickowl3);
 button4.addEventListener('click', click4);
+// button4.addEventListener('click', senddata);
